@@ -1,0 +1,67 @@
+body {
+background-color: #252525;
+}
+
+
+.square2 {
+    height: 120px;
+    width: 400px;
+    border-radius:25%;
+    text-align: center;
+    background-color: #D9D9D9;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px
+}
+
+
+button {
+    border: none;
+    text-align: center;
+    color: #324E41;
+    font-size: 70px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-family: 'nomes';
+    background-color: #D9D9D9;
+}
+
+@font-face{
+    font-family: 'titulocredito';
+    src: url('../fontes/PasseroOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+p{
+    font-family: titulocredito;
+    font-size: 215px;
+    color: #C6D5D0;
+    -webkit-text-stroke-width: 11px;
+    -webkit-text-stroke-color: #324E41;
+    margin-block: 0px;
+    margin-top: 60px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    letter-spacing: -17px;
+
+}
+@font-face{
+    font-family: 'nomes';
+    src: url('../fontes/PassionOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+h1{
+    font-family: nomes;
+    font-size: 70px;
+    color:#D9D9D9;
+    margin-top: -10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width:900px;
+}
