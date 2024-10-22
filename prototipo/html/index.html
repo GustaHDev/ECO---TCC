@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,19 +8,33 @@
     <title>ECO</title>
 </head>
 
+<header>
+
+    <nav>
+        <ul>
+            <li><button onclick="start('index')">JOGAR</button></li>
+            <li><button onclick="start('creditos')">CRÉDITOS</button></li>
+            <li></li><button onclick="start('sobrenos')">SOBRE NÓS</button></li>
+        </ul>
+    </nav>
+    <div class="logo">
+        <img src="../imagens/menu/jungle-logo 2.png" />
+    </div>
+</header>
+
 <body>
-        <div class="ECO-logo">
-            <h1 id="eco">Echoes</h1>
-            <div class="button" id="jogar">
-                <button onclick="">Jogar</button>
-            </div>
-        
-            <div class="button" id="creditos">
-                <button onclick="start('creditos')">Créditos</button>
-            </div>
+    <div class="ECO-logo">
+        <h1 id="eco">Echoes</h1>
+        <div class="button" id="jogar">
+            <button onclick="">Jogar</button>
         </div>
 
-        <img src="../imagens/menu/jungle-logo 2.png"/>
+        <div class="button" id="creditos">
+            <button onclick="start('creditos')">Créditos</button>
+        </div>
+    </div>
+
+    <img src="../imagens/menu/jungle-logo 2.png" />
     </div>
 
     <script src="../javascript/javascript.js"></script>
