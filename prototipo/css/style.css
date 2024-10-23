@@ -26,12 +26,12 @@ nav ul {
     font-family: 'passionOne';
     font-size: 30px;
     margin: 0px;
-    margin-right: 30px;
+    margin-right: 50px;
     list-style-type: none;
     text-align: right;
 }
 
-.logo{
+.logo {
     background-image: url(../imagens/menu/jungle-logo\ 2.png);
     background-position: center;
     background-size: cover;
@@ -43,20 +43,27 @@ nav ul {
     margin-bottom: -10px;
 }
 
-.logo a{
-    text-indent: -3000px;
+.logo a, .logo h1{
+    height: 60px;
+    margin: 0;
+    text-indent: 3000px;
 }
 
-
 ul button {
+    padding: 10px;
     border: none;
     text-align: center;
     color: #C6D5D0;
     font-size: 32px;
     cursor: pointer;
     font-family: passionOne;
-    border-radius: 25%;
+    border-radius: 5%;
     background-color: #324E41;
+}
+
+ul button:hover{
+    background-color: #C6D5D0;
+    color: #324E41;
 }
 
 .container {
@@ -73,31 +80,9 @@ p {
 
 }
 
-.square2 {
-    height: 120px;
-    width: 400px;
-    border-radius: 25%;
-    text-align: center;
-    background-color: #D9D9D9;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 90px
-}
 
-.square2 button {
-    border: none;
-    text-align: center;
-    color: #324E41;
-    font-size: 70px;
-    margin-top: 20px;
-    cursor: pointer;
-    font-family: passionOne;
-    background-color: #D9D9D9;
-}
-
-h1 {
-    font-family: ecotitle;
+#texto h1 {
+    font-family: passeroOne;
     font-size: 305px;
     color: #C6D5D0;
     -webkit-text-stroke-width: 5px;
