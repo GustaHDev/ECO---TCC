@@ -5,9 +5,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style.css">
-  <script src="./javascript/javascript.js"></script>
+
   <title>Página inicial</title>
 </head>
+
+<!-- --------------------------------------------------------------------------
+                                   MENU 
+------------------------------------------------------------------------------- -->
 
 <header>
 
@@ -21,9 +25,9 @@
           </a>
         </div>
       </li>
-      <li><button onclick="start('./html/jogar')">JOGAR</button></li>
-      <li><button onclick="start('./html/creditos')">CRÉDITOS</button></li>
-      <li></li><button onclick="start('./html/sobrenos')">SOBRE NÓS</button></li>
+      <li><button class="tab-btn" content-id="play" onclick="">JOGAR</button></li>
+      <li><button class="tab-btn" content-id="credits" onclick="">CRÉDITOS</button></li>
+      <li><button class="tab-btn" content-id="about" onclick="">SOBRE NÓS</button></li>
     </ul>
 
   </nav>
@@ -32,27 +36,122 @@
 
 <body>
 
-  <div class="container">
-    <img
-      src="https://www.guiaviagensbrasil.com/imagens/Imagem%20do%20mar%20calma%20e%20belo%20da%20Praia%20da%20Engenhoca-Itacar%C3%A9-Bahia-BA.jpg"
-      style="border-radius: 25% 0% 0% 25%">
-    <img
-      src="https://www.guiaviagensbrasil.com/imagens/Imagem%20do%20mar%20calma%20e%20belo%20da%20Praia%20da%20Engenhoca-Itacar%C3%A9-Bahia-BA.jpg">
-    <img
-      src="https://www.guiaviagensbrasil.com/imagens/Imagem%20do%20mar%20calma%20e%20belo%20da%20Praia%20da%20Engenhoca-Itacar%C3%A9-Bahia-BA.jpg"
-      style="border-radius: 0% 25% 25% 0%">
+  <!-- --------------------------------------------------------------------------
+                                  CONTEUDO
+------------------------------------------------------------------------------- -->
 
+  <div class="conteudo">
+
+    <!-- --------------------------------------------------------------------------
+                                   HOME 
+------------------------------------------------------------------------------- -->
+    <div id="home">
+      <div class="carousel">
+        <div id="image">
+          <img
+          src="https://www.guiaviagensbrasil.com/imagens/Imagem%20do%20mar%20calma%20e%20belo%20da%20Praia%20da%20Engenhoca-Itacar%C3%A9-Bahia-BA.jpg" alt="">
+        </div>
+        <div id="image">
+          <img
+          src="https://www.guiaviagensbrasil.com/imagens/Imagem%20do%20mar%20calma%20e%20belo%20da%20Praia%20da%20Engenhoca-Itacar%C3%A9-Bahia-BA.jpg"
+          alt="">
+        </div>
+        <div id="image">
+          <img
+          src="https://www.guiaviagensbrasil.com/imagens/Imagem%20do%20mar%20calma%20e%20belo%20da%20Praia%20da%20Engenhoca-Itacar%C3%A9-Bahia-BA.jpg"
+          alt="">
+        </div>
+      </div>
+
+      <br>
+      <div id="texto">
+        <p>
+          Um jogo digital para o ensino da preservação do<br>meio ambiente!
+        </p>
+        <h1 id="eco">e.c.o.</h1>
+        <p>
+          Faça o download agora e ajude a salvar o planeta!
+        </p>
+      </div>
+    </div>
+
+    <!-- --------------------------------------------------------------------------
+                                   PLAY 
+------------------------------------------------------------------------------- -->
+
+    <div id="play">
+      <div class="ECO-logo">
+        <h1 id="eco">Echoes</h1>
+        <div class="button" id="jogar">
+          <button onclick="">Jogar</button>
+        </div>
+
+        <div class="button" id="creditos">
+          <button onclick="">Créditos</button>
+        </div>
+      </div>
+
+      <img src="../imagens/menu/jungle-logo 2.png" />
+    </div>
+
+    <!-- --------------------------------------------------------------------------
+                                   ABOUT 
+------------------------------------------------------------------------------- -->
+    <div id="about">
+      <h1>Quem somos?</h1>
+
+      <h2>Nossa história</h2>
+      <div class="container">
+        <p>Após pesquisas aprofundadas sobre a situação do nosso meio ambiente, concluímos que a situação é preocupante.
+          Também foram feitas pesquisas sobre a indústria de jogos digitais, e notamos a franca ascensão desta indústria
+          e
+          seu impacto no mundo atual.
+          Portanto, decidimos produzir uma forma interariva de se educar a população, principalmente infantil, a
+          proteger o
+          meio ambiente!
+        </p>
+        <img
+          src="https://www.guiaviagensbrasil.com/imagens/Imagem%20do%20mar%20calma%20e%20belo%20da%20Praia%20da%20Engenhoca-Itacar%C3%A9-Bahia-BA.jpg">
+      </div>
+
+      <h2>Sobre o grupo Jungle</h2>
+      <div class="container2">
+        <p>O grupo Jungle (ou selva), somos um grupo composto por 5 amigos que se conheceram na ETEC. Elias Miguel
+          Júnior no
+          ano de 2021 e, desde então,
+          consumimos jogos digitais de forma excessiva, com o longínquo sonho de fazermos o nosso próprio game. Quando
+          foi-nos anunciado que poderíamos fazer
+          um jogo digital como TCC (Trabalho de Conclusão de Curso) para o curso de Informática P/ Internet, não
+          pensamos
+          duas vezes! Após muitas discussões e pesquisas sobre
+          o que seria o jogo, chegamos a conclusão de que o ideal seria um jogo com foco nas questões ambientais atuais,
+          que
+          são muito preocupantes,
+          com o intuito de conscientizar a população.</p>
+        <img
+          src="https://www.guiaviagensbrasil.com/imagens/Imagem%20do%20mar%20calma%20e%20belo%20da%20Praia%20da%20Engenhoca-Itacar%C3%A9-Bahia-BA.jpg">
+      </div>
+    </div>
+
+    <!-- --------------------------------------------------------------------------
+                                   CREDITS 
+------------------------------------------------------------------------------- -->
+
+    <div id="credits">
+      <p>Créditos</p>
+      <div class="square">
+        <ul>
+          <li>Almeida Costa</li>
+          <li>Carlos Henrique Grifo Martins</li>
+          <li>Gustavo Henrique Silva</li>
+          <li>Lucas Gomes Ventura</li>
+          <li>Ryan Santana</li>
+        </ul>
+        <div class="square2"><button onclick="">Voltar</button></div>
+      </div>
+    </div>
   </div>
-  <br>
-  <div id="texto">
-    <p>
-      Um jogo digital para o ensino da preservação do<br>meio ambiente!
-    </p>
-    <h1 id="eco">e.c.o.</h1>
-    <p>
-      Faça download a
-    </p>
-  </div>
+  <script src="./javascript/javascript.js"></script>
 </body>
 
 </html>
